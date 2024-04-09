@@ -1,7 +1,9 @@
 import java.util.Scanner;
+import java.util.Locale;
 
 public class URI1060 {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
         double num1, num2, num3, num4, num5, num6;
